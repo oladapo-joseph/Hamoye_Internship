@@ -1,0 +1,247 @@
+GFN_name,country_code,"ISO Alpha-2 Code","ISO Alpha-3 Code"
+Armenia,1,AM,ARM
+Afghanistan,2,AF,AFG
+Albania,3,AL,ALB
+Algeria,4,DZ,DZA
+"American Samoa",5,AS,ASM
+Andorra,6,AD,AND
+Angola,7,AO,AGO
+"Antigua and Barbuda",8,AG,ATG
+Argentina,9,AR,ARG
+Australia,10,AU,AUS
+Austria,11,AT,AUT
+Bahamas,12,BS,BHS
+Bahrain,13,BH,BHR
+Barbados,14,BB,BRB
+Bangladesh,16,BD,BGD
+Bermuda,17,BM,BMU
+Bhutan,18,BT,BTN
+Bolivia,19,BO,BOL
+Botswana,20,BW,BWA
+Brazil,21,BR,BRA
+Aruba,22,AW,ABW
+Belize,23,BZ,BLZ
+"British Indian Ocean Ter",24,IO,IOT
+"Solomon Islands",25,SB,SLB
+"Brunei Darussalam",26,BN,BRN
+Bulgaria,27,BG,BGR
+Myanmar,28,MM,MMR
+Burundi,29,BI,BDI
+Cameroon,32,CM,CMR
+Canada,33,CA,CAN
+"Cabo Verde",35,CV,CPV
+"Cayman Islands",36,KY,CYM
+"Central African Republic",37,CF,CAF
+"Sri Lanka",38,LK,LKA
+Chad,39,TD,TCD
+Chile,40,CL,CHL
+"China, mainland",41,NULL,NULL
+"Christmas Island",42,CX,CXR
+"Cocos (Keeling) Islands",43,CC,CCK
+Colombia,44,CO,COL
+Comoros,45,KM,COM
+Congo,46,CG,COG
+"Cook Islands",47,CK,COK
+"Costa Rica",48,CR,CRI
+Cuba,49,CU,CUB
+Cyprus,50,CY,CYP
+Czechoslovakia,51,NULL,CSHH
+Azerbaijan,52,AZ,AZE
+Benin,53,BJ,BEN
+Denmark,54,DK,DNK
+Dominica,55,DM,DMA
+"Dominican Republic",56,DO,DOM
+Belarus,57,BY,BLR
+Ecuador,58,EC,ECU
+Egypt,59,EG,EGY
+"El Salvador",60,SV,SLV
+"Equatorial Guinea",61,GQ,GNQ
+"Ethiopia PDR",62,NULL,NULL
+Estonia,63,EE,EST
+"Faroe Islands",64,FO,FRO
+"Falkland Islands",65,FK,FLK
+Fiji,66,FJ,FJI
+Finland,67,FI,FIN
+France,68,FR,FRA
+"French Guiana",69,GF,GUF
+"French Polynesia",70,PF,PYF
+Djibouti,72,DJ,DJI
+Georgia,73,GE,GEO
+Gabon,74,GA,GAB
+Gambia,75,GM,GMB
+Germany,79,DE,DEU
+"Bosnia and Herzegovina",80,BA,BIH
+Ghana,81,GH,GHA
+Gibraltar,82,GI,GIB
+Kiribati,83,KI,KIR
+Greece,84,GR,GRC
+Greenland,85,GL,GRL
+Grenada,86,GD,GRD
+Guadeloupe,87,GP,GLP
+Guam,88,GU,GUM
+Guatemala,89,GT,GTM
+Guinea,90,GN,GIN
+Guyana,91,GY,GUY
+Haiti,93,HT,HTI
+Honduras,95,HN,HND
+"China Hong Kong SAR",96,HK,HKG
+Hungary,97,HU,HUN
+Croatia,98,HR,HRV
+Iceland,99,IS,ISL
+India,100,IN,IND
+Indonesia,101,ID,IDN
+"Iran, Islamic Republic of",102,IR,IRN
+Iraq,103,IQ,IRQ
+Ireland,104,IE,IRL
+Israel,105,IL,ISR
+Italy,106,IT,ITA
+"Côte d'Ivoire",107,CI,CIV
+Kazakhstan,108,KZ,KAZ
+Jamaica,109,JM,JAM
+Japan,110,JP,JPN
+Jordan,112,JO,JOR
+Kyrgyzstan,113,KG,KGZ
+Kenya,114,KE,KEN
+Cambodia,115,KH,KHM
+"Korea, Democratic People's Republic of",116,KP,PRK
+"Korea, Republic of",117,KR,KOR
+Kuwait,118,KW,KWT
+Latvia,119,LV,LVA
+"Lao People's Democratic Republic",120,LA,LAO
+Lebanon,121,LB,LBN
+Lesotho,122,LS,LSO
+Liberia,123,LR,LBR
+"Libyan Arab Jamahiriya",124,LY,LBY
+Liechtenstein,125,LI,LIE
+Lithuania,126,LT,LTU
+"Marshall Islands",127,MH,MHL
+"China, Macao SAR",128,MO,NULL
+Madagascar,129,MG,MDG
+Malawi,130,MW,MWI
+Malaysia,131,MY,MYS
+Maldives,132,MV,MDV
+Mali,133,ML,MLI
+Malta,134,MT,MLT
+Martinique,135,MQ,MTQ
+Mauritania,136,MR,MRT
+Mauritius,137,MU,MUS
+Mexico,138,MX,MEX
+Mongolia,141,MN,MNG
+Montserrat,142,MS,MSR
+Morocco,143,MA,MAR
+Mozambique,144,MZ,MOZ
+"Micronesia, Federated States of",145,FM,FSM
+Moldova,146,MD,MDA
+Namibia,147,NA,NAM
+Nauru,148,NR,NRU
+Nepal,149,NP,NPL
+Netherlands,150,NL,NLD
+"Netherlands Antilles",151,AN,ANT
+"New Caledonia",153,NC,NCL
+"Macedonia TFYR",154,MK,MKD
+Vanuatu,155,VU,VUT
+"New Zealand",156,NZ,NZL
+Nicaragua,157,NI,NIC
+Niger,158,NE,NER
+Nigeria,159,NG,NGA
+Niue,160,NU,NIU
+"Norfolk Island",161,NF,NFK
+Norway,162,NO,NOR
+"Northern Mariana Islands",163,MP,MNP
+"Pacific Islands Trust",164,PCI,PCHH
+Pakistan,165,PK,PAK
+Panama,166,PA,PAN
+"Czech Republic",167,CZ,CZE
+"Papua New Guinea",168,PG,PNG
+Paraguay,169,PY,PRY
+Peru,170,PE,PER
+Philippines,171,PH,PHL
+Pitcairn,172,PN,PCN
+Poland,173,PL,POL
+Portugal,174,PT,PRT
+Guinea-Bissau,175,GW,GNB
+Timor-Leste,176,TL,TLS
+"Puerto Rico",177,PR,PRI
+Eritrea,178,ER,ERI
+Qatar,179,QA,QAT
+Palau,180,PW,PLW
+Zimbabwe,181,ZW,ZWE
+Réunion,182,RE,REU
+Romania,183,RO,ROU
+Rwanda,184,RW,RWA
+"Russian Federation",185,RU,RUS
+"Serbia and Montenegro",186,CS,SCG
+"Saint Helena",187,SH,SHN
+"Saint Kitts and Nevis",188,KN,KNA
+"Saint Lucia",189,LC,LCA
+"Saint Pierre and Miquelon",190,PM,SPM
+"Saint Vincent and Grenadines",191,VC,VCT
+"Sao Tome and Principe",193,ST,STP
+"Saudi Arabia",194,SA,SAU
+Senegal,195,SN,SEN
+Seychelles,196,SC,SYC
+"Sierra Leone",197,SL,SLE
+Slovenia,198,SI,SVN
+Slovakia,199,SK,SVK
+Singapore,200,SG,SGP
+Somalia,201,SO,SOM
+"South Africa",202,ZA,ZAF
+Spain,203,ES,ESP
+"Western Sahara",205,EH,ESH
+"Sudan (former)",206,,
+Suriname,207,SR,SUR
+Tajikistan,208,TJ,TJK
+Eswatini,209,SZ,SWZ
+Sweden,210,SE,SWE
+Switzerland,211,CH,CHE
+"Syrian Arab Republic",212,SY,SYR
+Turkmenistan,213,TM,TKM
+Taiwan,214,TW,NULL
+"Tanzania, United Republic of",215,TZ,TZA
+Thailand,216,TH,THA
+Togo,217,TG,TGO
+Tokelau,218,TK,TKL
+Tonga,219,TO,TON
+"Trinidad and Tobago",220,TT,TTO
+Oman,221,OM,OMN
+Tunisia,222,TN,TUN
+Turkey,223,TR,TUR
+"Turks and Caicos Islands",224,TC,TCA
+"United Arab Emirates",225,AE,ARE
+Uganda,226,UG,UGA
+Tuvalu,227,TV,TUV
+USSR,228,SUN,SUUH
+"United Kingdom",229,GB,GBR
+Ukraine,230,UA,UKR
+"United States of America",231,US,USA
+"Burkina Faso",233,BF,BFA
+Uruguay,234,UY,URY
+Uzbekistan,235,UZ,UZB
+"Venezuela, Bolivarian Republic of",236,VE,VEN
+"Viet Nam",237,VN,VNM
+Ethiopia,238,ET,ETH
+"British Virgin Islands",239,VG,VGB
+"US Virgin Islands",240,VI,VIR
+"Wake Island",242,WAK,WKUM
+"Wallis and Futuna Islands",243,WF,WLF
+Samoa,244,WS,WSM
+"Yugoslav SFR",248,YUCS,YUG
+Yemen,249,YE,YEM
+"Congo, Democratic Republic of",250,CD,COD
+Zambia,251,ZM,ZMB
+Belgium,255,BE,BEL
+Luxembourg,256,LU,LUX
+Anguilla,258,AI,AIA
+"Channel Islands",259,NULL,NULL
+"Isle of Man",264,IM,IMN
+Mayotte,270,YT,MYT
+Serbia,272,RS,SRB
+Montenegro,273,ME,MNE
+Sudan,276,SD,SDN
+"South Sudan",277,SS,SSD
+Curaçao,279,CW,CUW
+"Sint Maarten (Dutch Part)",280,SX,SXM
+"Saint-Martin (French Part)",281,MF,MAF
+"State of Palestine",299,PS,PSE
+China,351,CN,CHN
+World,5001,NULL,NULL
