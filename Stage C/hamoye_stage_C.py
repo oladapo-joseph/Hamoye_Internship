@@ -15,7 +15,7 @@ from sklearn.model_selection import KFold , StratifiedKFold, LeaveOneOut
 from sklearn.linear_model import LogisticRegression
 from imblearn.over_sampling import SMOTE
 from sklearn.metrics import f1_score, recall_score,accuracy_score,precision_score,confusion_matrix
-
+from sklearn.tree import DecisionTreeClassifier
 
 
 df = pd.read_csv('C:/Users/ADELEKE OLADAPO/atom projects/Hamoye Practice/Hamoye Project/Hamoye_Internship/Stage C/NFA 2019 public_data.csv', low_memory =False)
@@ -106,7 +106,7 @@ for train_index,test_index in kf.split(norm_df):
     model = LogisticRegression().fit(xtrain,ytrain)
     f_scores.append(f1_score(ytest, model.predict(xtest), pos_label='2A')*100)
 
-print('f_scores: \n',f_scores)
+print('KFold f1_scores: \n',f_scores)
 print(model.predict(xtest).shape)
 
 
@@ -120,7 +120,7 @@ for train_index, test_index in skf.split(norm_df, y_balanced):
     modell = LogisticRegression().fit(x_train, y_train)
  #save result to list
     f1_scores.append(f1_score(y_true=y_test, y_pred=modell.predict(x_test), pos_label= '2A' ))
-print('f1_scores: \n', f1_scores)
+print('f1_scores for StratifiedKFold: \n', f1_scores)
 
 
 # LeaveOneOut
@@ -130,13 +130,13 @@ score = cross_val_score(LogisticRegression(), norm_df,y_balanced,
                         scoring= 'f1_macro')
 
 average_score = score.mean()*100
-print('LeaveOneOut mean score: ', average_score)
+print('LeaveOneOut cross_val_score: ', average_score, '\nSize of the list',len(score))
 
 
 # confusion_matrix
 prediction = log_reg.predict(test_df)
 matrix = confusion_matrix(Y_test, prediction, labels=['2A','3A'])
-print(matrix)
+print(matrix,'\nSize of the matrix data', test_df.size())
 
 # Accuracy
 acc  = accuracy_score(Y_test,prediction)
@@ -155,3 +155,11 @@ print("Recall score: ", round(recall*100, 2))
 # F1_score
 f1 = f1_score(Y_test, prediction, pos_label='2A')
 print('f1_score: ', round(f1*100,2))
+
+
+#using DecisionTreeClassifier
+dtree = DecisionTreeClassifier()
+dtree.fit(norm_df,y_balanced)
+pred = dtree.predict(test_df)
+prc = accuracy_score(Y_test,pred)
+print('Decision Tree accuracy score: \n', prc)
