@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 23 16:44:46 2020
 
 @author: ADELEKE OLADAPO
 """
@@ -119,13 +118,16 @@ for train_index, test_index in skf.split(norm_df, y_balanced):
     y_train, y_test = y_balanced[train_index], y_balanced[test_index]
     modell = LogisticRegression().fit(x_train, y_train)
  #save result to list
-    f1_scores.append(f1_score(y_true=y_test, y_pred=modell.predict(x_test), pos_label= '2A' ))
+    f1_scores.append(f1_score(y_true=y_test,
+                              y_pred=modell.predict(x_test),
+                              pos_label= '2A'))
 print('f1_scores for StratifiedKFold: \n', f1_scores)
 
 
 # LeaveOneOut
 Loo = LeaveOneOut()
-score = cross_val_score(LogisticRegression(), norm_df,y_balanced,
+score = cross_val_score(LogisticRegression(),
+                        norm_df,y_balanced,
                         cv=Loo,
                         scoring= 'f1_macro')
 

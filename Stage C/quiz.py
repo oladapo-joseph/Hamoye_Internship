@@ -107,5 +107,5 @@ extra.fit(x_train,y_train)
 print('extratree scores 2',extra.score(x_test,y_test))
 
 # important features
-data = pd.Series`(extra.feature_importances_, index = features.columns)
+data = pd.Series(extra.feature_importances_, index = features.columns)
 print(data.sort_values())
